@@ -1,0 +1,75 @@
+
+
+.main-timer{
+
+    height: 600px;
+    padding-top: 80px;
+    color: #61dafb;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.timer{
+
+    font-family: initial;
+    font-size: 230%
+}
+
+
+.black{
+
+    color: #282c34;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.linkedin-img{
+
+    height: 50px;
+    width: 50px;
+}
+
+
+.github-img{
+
+    height: 60px;
+    width: 60px;
+}
+
+
+.developed{
+
+    color: #282c34;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+
+.container {
+    width: 200px;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+
+.cube {
+
+    float: left;
+    width: 100px; 
+    height: 70px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.social-title{
+
+    float: left;
+    width: 100px; 
+    height: 70px;
+    text-align: left;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-size: 22px;
+}

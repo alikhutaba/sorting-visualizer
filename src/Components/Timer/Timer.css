@@ -58,8 +58,6 @@
 .cube {
 
     float: left;
-    /* display: inline-block; */
-
     width: 100px; 
     height: 70px;
     text-align: center;
@@ -70,8 +68,6 @@
 .social-title{
 
     float: left;
-    /* display: inline-block; */
-
     width: 100px; 
     height: 70px;
     text-align: left;

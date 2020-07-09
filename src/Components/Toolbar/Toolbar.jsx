@@ -33,13 +33,7 @@ class Toolbar extends React.Component{
         this.resetSortingArray = this.resetSortingArray.bind(this);
         this.changeSize = this.changeSize.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-
     }
-
-    // componentDidMount() {
-    //     this.setState({ width: window.innerWidth, height: window.innerHeight });
-    //     this.resetSortingArray(this.props.size);
-    //   }
       
       componentDidMount() {
         this.updateWindowDimensions();
@@ -74,18 +68,6 @@ class Toolbar extends React.Component{
         this.resetSortingArray(newSize)
     }
 
-
-    // resetSortingArray(size){
-    //     const sortingArray = []
-    //     var len = size === SMALL_ARRAY_SIZE? 120 : 75
-    //     for(let i=0 ; i < len; i++)
-    //         sortingArray.push(randomNumber(10,680))
-    //     this.props.setArray(sortingArray)
-    //     this.props.setTimer("reset")
-    // }
-
-    
-
     
     render(){
     
@@ -94,14 +76,7 @@ class Toolbar extends React.Component{
         
         console.log("state width "+this.state.width)
         console.log(window.innerWidth)
-        // {if(window.innerWidth !== this.state.width){
-        //     console.log("in the if")
-        //     this.resetSortingArray(this.props.size)  
-        //     this.setState({ width: window.innerWidth, height: window.innerHeight });
-
-        // } 
-        // }
-        
+     
         return(
             
             <footer className='main'>

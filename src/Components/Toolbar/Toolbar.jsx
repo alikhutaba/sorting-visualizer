@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux';
 
-import 'bootstrap/dist/css/bootstrap.css';
 import './Toolbar.css'
+import 'bootstrap/dist/css/bootstrap.css';
 
 import bubbleSort from '../../algorithms/bubbleSort.js';
 import mergeSort from '../../algorithms/mergeSort.js';

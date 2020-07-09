@@ -18,14 +18,14 @@ class Board extends React.Component{
         this.linesStyle = this.linesStyle.bind(this);
     }
 
-
+   
     linesStyle(value, index){
-    
+
         const swap = this.props.swap
         const pivot = this.props.pivot
         const sorted = this.props.sorted
         const tempArr = this.props.array
-       
+
         if(sorted.includes(index))
             return {height: `${value}px`, backgroundColor: "#61dafb"}
         

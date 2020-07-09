@@ -14,53 +14,22 @@ const SELECTION_SORT = 'selectionSort'
 
 class Information extends React.Component{
 
+    render(){
 
-    constructor(props){
-
-        super(props);
-
-        this.state = {
-            info: defaultInfo,
-          }
-
-        this.setInfo = this.setInfo.bind(this);
-
-    }
-
-
-    setInfo(algo){
-
-      this.state.info = algo === QUICK_SORT ?
-       quickSort : algo === BUBBLE_SORT ?
-       bubbleSort: algo === MERGE_SORT ?
-       mergeSort : algo === HEAP_SORT?
-       heapSort  : algo === INSERTION_SORT?
-       insertionSort : algo === SELECTION_SORT?
+      const algorithm = this.props.algorithm === QUICK_SORT ?
+       quickSort : this.props.algorithm === BUBBLE_SORT ?
+       bubbleSort: this.props.algorithm === MERGE_SORT ?
+       mergeSort : this.props.algorithm === HEAP_SORT?
+       heapSort  : this.props.algorithm === INSERTION_SORT?
+       insertionSort : this.props.algorithm === SELECTION_SORT?
        selectionSort : defaultInfo
 
-      if(algo === QUICK_SORT)
-        this.state.info = quickSort
-
-      if(algo === BUBBLE_SORT)
-        this.state.info = bubbleSort
-
-      if(algo === MERGE_SORT)
-        this.state.info = mergeSort     
-    }
-
-  
-    
-
-    render(){
-      
-      this.setInfo(this.props.algorithm)
         return(
             <div className="info">
 
-              <div className="pseuoCode">{this.state.info.pseudo}</div>
+              <div className="pseuoCode">{algorithm.pseudo}</div>
            
-
-                <table style= {this.state.info === defaultInfo ? {display: "none"} : null}>
+                <table style= {algorithm === defaultInfo ? {display: "none"} : null}>
                   <thead>
                     <tr>
                       <th>Best</th>
@@ -70,9 +39,9 @@ class Information extends React.Component{
                   </thead>
                   <thead>
                     <tr>
-                      <td>{this.state.info.time[0]}</td>
-                      <td>{this.state.info.time[1]}</td>
-                      <td>{this.state.info.time[2]}</td>
+                      <td>{algorithm.time[0]}</td>
+                      <td>{algorithm.time[1]}</td>
+                      <td>{algorithm.time[2]}</td>
                     </tr>
                   </thead>
                 </table>

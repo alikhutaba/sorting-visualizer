@@ -1,4 +1,4 @@
-
+/* 
 .main{
 
     padding-top: 15px;
@@ -16,8 +16,8 @@
     margin-left: 5px;
     margin-right: 5px;
     font-family: cursive;
-    /* font-size: 1.6rem; */
-    /* font-weight: 700; */
+    font-size: 1.6rem;
+    font-weight: 700;
     width: 200px;
 }
 
@@ -31,4 +31,139 @@
     line-height: 1.33;
     border-radius: 25px;
     border-radius: 50px;    
+  } */
+
+
+
+  
+.main{
+
+    /* padding-top: 1%; */
+    /* padding-bottom: 1%; */
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0%;
+    background-color: #282c34;
+}
+
+
+.main-btn {
+    text-align: center;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    margin-top: 0.8%;
+    margin-bottom: 1%;
+    font-family: cursive;
+    font-size: 100%;
+    width: 11%;
+    height: 50%;
+
+}
+
+
+
+.btn-circle.btn-lg {
+    text-align: center;
+    /* width: 70px; */
+    width: 4%;
+    /* height: 70px; */
+    height: 75%;
+    /* padding: 10px 10px; */
+    /* padding-left: 1%; */
+    /* padding-right: 2.5%; */
+    /* font-size: 18px; */
+    font-size: 90%;
+
+    line-height: 1.33;
+    /* border-radius: 25px; */
+    border-radius: 50px;    
   }
+
+
+
+
+
+  @media (max-width: 1550px) {
+    .main-btn {
+        text-align: center;
+        margin-left: 0.3%;
+        margin-right: 0.3%;
+        margin-top: 0.8%;
+        margin-bottom: 1%;
+        font-family: cursive;
+        font-size: 50%;
+        width: 11%;
+        height: 50%;
+    
+    }
+    .btn-circle.btn-lg {
+        text-align: center;
+        /* width: 70px; */
+        width: 4%;
+        /* height: 70px; */
+        height: 75%;
+        /* padding: 10px 10px; */
+        /* padding-left: 1%; */
+        /* padding-right: 2.5%; */
+        /* font-size: 18px; */
+        font-size: 50%;
+    
+        line-height: 1.33;
+        /* border-radius: 25px; */
+        border-radius: 50px;    
+      }
+    
+}
+
+
+
+
+@media (max-width: 640px) {
+
+
+    .main{
+        text-align: center;
+        width: 100%;
+        height: 8%;
+        position: fixed;
+        bottom: 0%;
+        background-color: #282c34;
+    }
+
+
+
+    .main-btn {
+
+        text-align: center;
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        margin-top: 1.4%;
+        /* margin-bottom: 1%; */
+        font-family: cursive;
+        font-size: 30%;
+        width: 11%;
+        height: 70%;
+    
+    }
+
+    .btn-circle.btn-lg {
+        text-align: center;
+        /* width: 70px; */
+        width: 4%;
+        /* height: 70px; */
+        height: 75%;
+        /* padding: 10px 10px; */
+        padding-left: 1%;
+        /* padding-right: 2.5%; */
+        /* font-size: 18px; */
+        font-size: 50%;
+    
+        line-height: 1.33;
+        /* border-radius: 25px; */
+        border-radius: 50px;    
+      }
+    
+}
+

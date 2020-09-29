@@ -103,6 +103,20 @@ class Toolbar extends React.Component {
             <span></span>
           </div>
         </div>
+
+        <button
+          onClick={!isSorting ? () => sort(array, algorithm) : null}
+          style={
+            isSorting
+              ? { backgroundColor: "#dc3545", cursor: "not-allowed" }
+              : null
+          }
+          type="button"
+          className="main-btn btn btn-outline-danger btn-circle btn-lg sort-mobile-button"
+        >
+          {sortButton}
+        </button>
+
         <div
           id="menu"
           className={this.state.isClose ? "" : "op"}
@@ -140,6 +154,7 @@ class Toolbar extends React.Component {
             }
             type="button"
             className=" btn btn-outline-warning main-btn"
+            id="sort-button"
           >
             Merge Sort
           </button>

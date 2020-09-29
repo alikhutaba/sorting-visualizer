@@ -183,7 +183,11 @@
     height: 40px;
   }
 
-  .btn-circle.btn-lg {
+  #sort-button {
+    display: none;
+  }
+
+  .btn-circle.btn-lg .sort-mobile-button {
     /* display: none; */
     position: fixed;
     left: 0;

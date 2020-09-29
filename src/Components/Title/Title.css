@@ -1,12 +1,14 @@
-
-.sortTitle{
-
-    height: 60px;
-    padding-top: 5px;
-    margin-bottom: 2%;
-    background-color: #282c34;
-    color: #61dafb;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.sortTitle {
+  height: 60px;
+  padding-top: 5px;
+  margin-bottom: 2%;
+  background-color: #282c34;
+  color: #61dafb;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
+@media (max-width: 850px) {
+  .title {
+    font-size: 24px;
+  }
+}

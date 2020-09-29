@@ -16,7 +16,7 @@ class Title extends React.Component {
       algorithmTitle = (algorithm).charAt(0).toUpperCase() + algorithm.slice(1).replace("Sort"," Sort")
    
     return(
-        <div className="sortTitle"><h4>{algorithmTitle}</h4></div>
+        <div className="sortTitle"><h4 className="title">{algorithmTitle}</h4></div>
     )
   }
 }

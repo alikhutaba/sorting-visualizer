@@ -49,7 +49,6 @@ class Timer extends React.Component {
         }),
       10
     );
-    console.log(this.timer);
   }
 
   stopTimer() {
@@ -90,7 +89,7 @@ class Timer extends React.Component {
 
         <div className="container">
           <div style={{ display: "inline-block" }}>
-            <div className="social-title">Linkedin :</div>
+            {/* <div className="social-title">Linkedin :</div> */}
             <div className="cube">
               <a
                 href="https://www.linkedin.com/in/ali-khutaba-843627173/"
@@ -107,7 +106,7 @@ class Timer extends React.Component {
           </div>
 
           <div style={{ display: "inline-block" }}>
-            <div className="social-title">GitHub :</div>
+            {/* <div className="social-title">GitHub :</div> */}
             <div className="cube">
               <a
                 href="https://github.com/alikhutaba"

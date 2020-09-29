@@ -1,29 +1,17 @@
-
-.small-array-bar{
-    text-align: center;
-    display: inline-block;
-    width: 4px;
-    background-color: royalblue;
-    margin-left: 3px;
-    margin-right: 3px;
+.small-array-bar {
+  text-align: center;
+  display: inline-block;
+  width: 4px;
+  background-color: royalblue;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
-
-.big-array-bar{
-    text-align: center;
-    display: inline-block;
-    width: 12px;
-    background-color: royalblue;
-    margin-left: 2px;
-    margin-right: 2px;
+.big-array-bar {
+  text-align: center;
+  display: inline-block;
+  width: 12px;
+  background-color: royalblue;
+  margin-left: 2px;
+  margin-right: 2px;
 }
-
-
-
-
-
-
-
-
-
-

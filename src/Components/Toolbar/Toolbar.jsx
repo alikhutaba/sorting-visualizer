@@ -108,11 +108,11 @@ class Toolbar extends React.Component {
           onClick={!isSorting ? () => sort(array, algorithm) : null}
           style={
             isSorting
-              ? { backgroundColor: "#dc3545", cursor: "not-allowed" }
+              ? { backgroundColor: " #61dafb", cursor: "not-allowed" }
               : null
           }
           type="button"
-          className="main-btn btn btn-outline-danger btn-circle btn-lg sort-mobile-button"
+          className="main-btn btn btn-outline-info  sort-mobile-button"
         >
           {sortButton}
         </button>
@@ -154,7 +154,6 @@ class Toolbar extends React.Component {
             }
             type="button"
             className=" btn btn-outline-warning main-btn"
-            id="sort-button"
           >
             Merge Sort
           </button>
@@ -168,6 +167,7 @@ class Toolbar extends React.Component {
             }
             type="button"
             className="main-btn btn btn-outline-danger btn-circle btn-lg"
+            id="sort-button"
           >
             {sortButton}
           </button>

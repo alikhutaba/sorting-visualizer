@@ -12,7 +12,7 @@
 
 Sorting Visualizer is an application that visualizes sorting algorithms in action.
 
-Link to the APP - https://alikhutaba.github.io/sorting-visualizer/
+Live Demo - https://alikhutaba.github.io/sorting-visualizer/
 
 Implemented Algorithm:
 

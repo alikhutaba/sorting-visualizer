@@ -3,7 +3,7 @@
 
 
 
-![alt text](https://github.com/alikhutaba/sorting-visualizer/blob/master/images/Screenshot.png)
+![alt text](https://github.com/alikhutaba/sorting-visualizer/blob/master/public/Screenshot.png?raw=true)
 
 
 
